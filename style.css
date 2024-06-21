@@ -55,13 +55,13 @@ nav ul li a:hover {
 }
 
 .hero {
-  background-image: url('"C:\Users\88697\Desktop\IMG_2459-1.png"'); /* 更換成您的英雄背景圖片 */
-  background-size: cover;
-  background-position: center;
-  color: #fff;
+  background-image: url("IMG_2459-1.png"); /* 更換成您的英雄背景圖片 */
+  background-size: "cover"
+  background-position:"center"
+  color" #fff"
   text-align: center;
-  padding: 100px 0;
-}
+  padding: "100px 0"
+ at rule
 
 .hero h2 {
   font-size: 3em;

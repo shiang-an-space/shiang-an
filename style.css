@@ -1,73 +1,150 @@
-<!DOCTYPE html>
-<html lang="zh-Hant-TW">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>祥安生命有限公司</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  <header>
-    <div class="container">
-      <h1>祥安生命有限公司</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">首頁</a></li>
-          <li><a href="services.html">服務</a></li>
-          <li><a href="about.html">關於我們</a></li>
-          <li><a href="contact.html">聯絡我們</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2; /* 淺灰色背景 */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
 
-  <section class="hero">
-    <div class="container">
-      <h2>專業禮儀服務</h2>
-      <p>祥安生命有限公司為您提供專業、細心的禮儀服務</p>
-      <p>24小時專線： <a href="tel:0938179858">0938179858</a></p>
-    </div>
-  </section>
+.container {
+  width: 80%;
+  margin: 0 auto; /* 水平置中 */
+  max-width: 1200px;
+  padding: 0 20px;
+}
 
-  <section class="main-content">
-    <div class="container">
-      <h2>關於我們</h2>
-      <p>祥安生命有限公司專注於提供專業的禮儀服務，以及溫暖和尊嚴的安排。</p>
-    </div>
-  </section>
+header {
+  background-color: #333; /* 深灰色背景 */
+  color: #fff;
+  padding: 20px 0;
+}
 
-  <section class="additional-info">
-    <div class="container">
-      <h2>服務內容</h2>
-      <ul>
-        <li>臨終諮詢</li>
-        <li>中式禮儀服務</li>
-        <li>西式禮儀服務</li>
-        <li>塔位帶看</li>
-        <li>客製禮儀服務</li>
-        <li>生前告別式</li>
-        <li>奠禮花籃訂購</li>
-      </ul>
-    </div>
-  </section>
+header h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-  <section class="contact">
-    <div class="container">
-      <h2>聯絡我們</h2>
-      <ul>
-        <li>電話： <a href="tel:0938179858">0938179858</a></li>
-        <li>Facebook： <a href="https://www.facebook.com/yourcompany">Facebook 專頁</a></li>
-        <li>Line ID： your-line-id</li>
-      </ul>
-    </div>
-  </section>
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 祥安生命有限公司. All rights reserved.</p>
-    </div>
-  </footer>
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
 
-</body>
-</html>
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background-image: url('your-background-image.jpg'); /* 更換成您的英雄背景圖片 */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.main-content h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.1em;
+  color: #666;
+  line-height: 1.8;
+}
+
+.additional-info {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.additional-info h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.additional-info ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.additional-info ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.contact {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.contact ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Custom styles for slogan */
+.slogan {
+  background-color: #222; /* 深灰色背景 */
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.slogan p {
+  font-size: 1.3em;
+  line-height: 1.6;
+}

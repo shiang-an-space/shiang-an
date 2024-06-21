@@ -8,25 +8,35 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">首頁</a></li>
-        <li><a href="about.html">關於我們</a></li>
-        <li><a href="services.html">服務</a></li>
-        <li><a href="blog.html">blog</a></li>
-        <li><a href="contact.html">聯繫我們</a></li>
-      </ul>
-    </nav>
-    <div class="hero">
+    <div class="container">
       <h1>祥安生命有限公司</h1>
-      <p>專業的禮儀服務，為您的特殊時刻增添溫馨與尊嚴。</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">首頁</a></li>
+          <li><a href="about.html">關於我們</a></li>
+          <li><a href="services.html">服務</a></li>
+          <li><a href="blog.html">部落格</a></li>
+          <li><a href="contact.html">聯繫我們</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>專業的禮儀服務</h2>
+      <p>為每一位客戶提供尊嚴和同理心，讓每個禮儀都成為一段溫暖的回憶。</p>
+      <a href="services.html" class="btn">探索更多</a>
+    </div>
+  </section>
 
   <section class="about">
     <div class="container">
       <h2>關於我們</h2>
-      <p>我們致力於提供專業的禮儀服務，並以同理心和尊重處理每個細節。</p>
+      <div class="about-content">
+        <img src="about.jpg" alt="公司介紹">
+        <p>祥安生命有限公司是一家專業的禮儀服務公司，我們致力於提供個性化和專業的禮儀安排，以尊重和慈愛為核心價值。</p>
+      </div>
     </div>
   </section>
 
@@ -36,35 +46,35 @@
       <div class="service-item">
         <img src="service1.jpg" alt="喪禮禮儀">
         <h3>喪禮禮儀</h3>
-        <p>為逝者及家屬安排具有尊嚴的喪禮程序。</p>
+        <p>我們精心安排每個細節，確保禮儀過程充滿尊嚴和安寧。</p>
       </div>
       <div class="service-item">
         <img src="service2.jpg" alt="紀念儀式">
         <h3>紀念儀式</h3>
-        <p>策劃個性化的紀念儀式，弔念逝者的生命與貢獻。</p>
+        <p>我們設計獨特的紀念儀式，慶祝逝者的生命和貢獻。</p>
       </div>
       <div class="service-item">
         <img src="service3.jpg" alt="遺體管理">
         <h3>遺體管理</h3>
-        <p>提供專業的遺體管理和安置服務。</p>
+        <p>提供專業的遺體管理和安置服務，以最大程度地尊重逝者和家屬。</p>
       </div>
     </div>
   </section>
 
   <section class="blog">
     <div class="container">
-      <h2>最新動態</h2>
+      <h2>部落格</h2>
       <div class="blog-post">
         <img src="blog1.jpg" alt="最新動態">
         <h3>如何優雅處理喪禮流程</h3>
         <p>探索如何在喪禮中表現尊嚴和慈愛。</p>
-        <a href="blog.html">閱讀更多</a>
+        <a href="blog.html" class="btn">閱讀更多</a>
       </div>
       <div class="blog-post">
         <img src="blog2.jpg" alt="最新動態">
         <h3>如何紀念逝者的生命</h3>
         <p>探索不同的紀念儀式選擇，以慶祝逝者的生命。</p>
-        <a href="blog.html">閱讀更多</a>
+        <a href="blog.html" class="btn">閱讀更多</a>
       </div>
     </div>
   </section>
@@ -83,7 +93,7 @@
         <label for="message">留言：</label><br>
         <textarea id="message" name="message" rows="4" required></textarea><br>
         
-        <button type="submit">發送</button>
+        <button type="submit" class="btn">發送</button>
       </form>
     </div>
   </section>
@@ -93,5 +103,6 @@
       <p>&copy; 2024 祥安生命有限公司. All rights reserved.</p>
     </div>
   </footer>
+
 </body>
 </html>

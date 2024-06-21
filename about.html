@@ -1,42 +1,97 @@
-html
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-Hant-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="關於祥安生命有限公司">
-    <meta name="keywords" content="祥安生命有限公司 - 新北市三重區永福街135巷13號。禮儀師陳柏元，推薦葬儀社，推薦禮儀公司，推薦生命禮儀，塔位帶勘，價格實惠，提供專業客製化禮儀服務。">
-    <meta name="keywords" content="祥安生命有限公司, 禮儀公司, 新北市禮儀, 台北市禮儀，客製化禮儀">
-    <title>關於我們 - 祥安生命有限公司</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>祥安生命有限公司</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>祥安生命有限公司</h1>
-        <p>禮儀師：陳柏元</p>
-        <p>新北市三重區永福街135巷13號</p>
-        <p>電話：0938-179-858</p>
-    </header>
+  <header>
     <nav>
-        <ul>
-            <li><a href="index.html">首頁</a></li>
-            <li><a href="about.html">關於我們</a></li>
-            <li><a href="services.html">服務項目</a></li>
-            <li><a href="contact.html">聯絡我們</a></li>
-            <li><a href="blog.html">部落格</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="about.html">關於我們</a></li>
+        <li><a href="services.html">服務</a></li>
+        <li><a href="blog.html">部落格</a></li>
+        <li><a href="contact.html">聯繫我們</a></li>
+      </ul>
     </nav>
-    <main>
-        <section>
-            <h2>關於我們</h2>
-            <p>祥安生命有限公司成立於2010年，由禮儀師陳柏元成立，致力於提供專業的客製化禮儀服務，一步一步帶領家人，陪伴至親走完人生的最後一段路。</p>
-            <p>祥安生命同仁是通過專業的訓練及多年的歷練，讓每一個人都能在尊嚴與愛中告別。</p>
-            <p>我們的團隊由經驗豐富的禮儀師組成，確保每一個細節都能完美執行。</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 祥安生命有限公司 保留所有權利</p>
-        <p><a href="https://www.facebook.com/shianganlife?mibextid=LQQJ4d">Facebook 粉絲專頁</a> | <a href="https://maps.app.goo.gl/bVPvGpKurE2j7ZmK7?g_st=com.google.maps.preview.copy">Google 地圖</a></p>
-    </footer>
+    <div class="hero">
+      <h1>祥安生命有限公司</h1>
+      <p>專業的禮儀服務，為您的特殊時刻增添溫馨與尊嚴。</p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2>關於我們</h2>
+      <p>我們致力於提供專業的禮儀服務，並以同理心和尊重處理每個細節。</p>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h2>我們的服務</h2>
+      <div class="service-item">
+        <img src="service1.jpg" alt="喪禮禮儀">
+        <h3>喪禮禮儀</h3>
+        <p>為逝者及家屬安排具有尊嚴的喪禮程序。</p>
+      </div>
+      <div class="service-item">
+        <img src="service2.jpg" alt="紀念儀式">
+        <h3>紀念儀式</h3>
+        <p>策劃個性化的紀念儀式，慶祝逝者的生命與貢獻。</p>
+      </div>
+      <div class="service-item">
+        <img src="service3.jpg" alt="遺體管理">
+        <h3>遺體管理</h3>
+        <p>提供專業的遺體管理和安置服務。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog">
+    <div class="container">
+      <h2>最新動態</h2>
+      <div class="blog-post">
+        <img src="blog1.jpg" alt="最新動態">
+        <h3>如何優雅處理喪禮流程</h3>
+        <p>探索如何在喪禮中表現尊嚴和慈愛。</p>
+        <a href="blog.html">閱讀更多</a>
+      </div>
+      <div class="blog-post">
+        <img src="blog2.jpg" alt="最新動態">
+        <h3>如何紀念逝者的生命</h3>
+        <p>探索不同的紀念儀式選擇，以慶祝逝者的生命。</p>
+        <a href="blog.html">閱讀更多</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>聯繫我們</h2>
+      <p>有任何問題或需要更多信息？請隨時與我們聯繫。</p>
+      <form>
+        <label for="name">姓名：</label><br>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">電子郵件：</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="message">留言：</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+        <button type="submit">發送</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 祥安生命有限公司. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>

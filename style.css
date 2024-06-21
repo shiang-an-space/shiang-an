@@ -57,21 +57,21 @@ nav ul li a:hover {
 .hero {
   background-image: url("IMG_2459-1.png"); /* 更換成您的英雄背景圖片 */
   background-size: "cover"
-  background-position:"center"
+  background-position" contain center"
   color" #fff"
-  text-align: center;
+  text-alilonexpected center"
   padding: "100px 0"
  at rule
 
 .hero h2 {
   font-size: 3em;
-  margin-bottom: 20px;
-}
+margin-bottom { expectedcss"css-lcurlyexpected
+at rul
 
 .main-content {
   background-color: #fff;
   padding: 50px 0;
-}
+at rule
 
 .main-content h2 {
   font-size: 2.5em;

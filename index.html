@@ -1,70 +1,60 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-TW">
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>祥安生命有限公司</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="祥安生命有限公司 - 專業殯葬服務">
+    <meta name="keywords" content="祥安生命, 禮儀公司, 喪禮服務, 臨終關懷, 中式禮儀, 西式禮儀, 日本教儀式, 殯葬禮儀">
+    <meta name="author" content="祥安生命有限公司">
+    <title>祥安生命有限公司</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-  <header>
-    <div class="container">
-      <h1>祥安生命有限公司</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">首頁</a></li>
-          <li><a href="services.html">服務</a></li>
-          <li><a href="about.html">關於我們</a></li>
-          <li><a href="contact.html">聯絡我們</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero">
-    <div class="container">
-      <h2>專業禮儀服務</h2>
-      <p>祥安生命有限公司為您提供專業、細心的禮儀服務</p>
-    </div>
-  </section>
-
-  <section class="main-content">
-    <div class="container">
-      <h2>關於我們</h2>
-      <p>祥安生命有限公司專注於提供專業的禮儀服務，以及溫暖和尊嚴的安排。</p>
-    </div>
-  </section>
-
-  <section class="additional-info">
-    <div class="container">
-      <h2>服務內容</h2>
-      <ul>
-        <li>臨終諮詢</li>
-        <li>中式禮儀服務</li>
-        <li>西式禮儀服務</li>
-        <li>塔位帶看</li>
-        <li>客製禮儀服務</li>
-        <li>生前告別式</li>
-        <li>奠禮花籃訂購</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="contact">
-    <div class="container">
-      <h2>聯絡我們</h2>
-      <div class="phone">
-        <a href="tel:0938179858">24小時服務專線：0938179858</a>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 祥安生命有限公司. All rights reserved.</p>
-    </div>
-  </footer>
-
+    <header>
+        <h1>祥安生命有限公司</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="services/index.html">服務項目</a></li>
+                <li><a href="services/funeral-etiquette.html">禮儀內容</a></li>
+                <li><a href="services/palliative-care.html">臨終諮詢</a></li>
+                <li><a href="facilities/index.html">會館</a></li>
+                <li><a href="testimonials.html">客戶好評</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="carousel">
+                <!-- 這裡放置您的輪播圖片 -->
+            </div>
+            <h2>24小時免費諮詢服務</h2>
+            <a href="tel:0938179858" class="button">立即撥打</a>
+            <p class="line-contact">或加入我們的LINE：<a href="https://line.me/ti/p/id:0938179858" target="_blank">@shiang_an</a></p>
+        </section>
+        <!-- 其他內容區塊 -->
+    </main>
+    <footer>
+        <div class="contact-icons">
+            <a href="tel:0938179858"><img src="images/phone-icon.png" alt="電話"></a>
+            <a href="https://line.me/ti/p/id:0938179858" target="_blank"><img src="images/line-icon.png" alt="LINE"></a>
+            <a href="https://www.facebook.com/shianganlife" target="_blank"><img src="images/facebook-icon.png" alt="臉書"></a>
+        </div>
+        <p>&copy; 2024 祥安生命有限公司</p>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 3000,
+                dots: true,
+            });
+        });
+    </script>
 </body>
 </html>
